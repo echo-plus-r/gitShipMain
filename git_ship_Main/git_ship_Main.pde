@@ -134,8 +134,8 @@ void dropOutOfWarp(){
   float rndY = 121; // 100, 200
   x = map(rndX, 0.25*width, 0.75*width, 0, 10);
   y = map(rndY, 0.25*height, 0.5*height, 0, 10);
-  earth = new Planet(rndX, rndY, random(50, 375));
-  earth.sliders();
+  //earth = new Planet(rndX, rndY, random(50, 375));
+  //earth.sliders();
   location = "SCAET Colony";
 }
 
